@@ -458,7 +458,7 @@ body {
 }
 .menu {
     max-width: 1024px;
-    margin: 1rem;
+    margin: 0 0 0 15rem;
     
 }
 .menu nav{
@@ -473,6 +473,7 @@ body {
     justify-content: space-evenly;
     flex-grow: 2;
     list-style: none;
+    font-size: 1rem;
 }
 
 .menu__list__item__contato {
@@ -482,19 +483,24 @@ body {
     
 }
 
+.menu__title {
+    font-size: 1.2rem;
+}
+
 
 /*Titulo*/
 
 .title {
     justify-content: flex-start;
     line-height: 2.3rem;
+    margin-bottom: 3rem;
 
     margin-top: 3rem;
     
 }
 
 .title__profile {
-    margin-left: 1rem;
+    margin-left: 15rem;
     width: 15rem;
     height: 15rem;
     margin-right: 2rem;
@@ -504,19 +510,22 @@ body {
 .title__subsection {
     font-weight: 100;
     font-size: 1rem;
+    margin-bottom: 0;
 }
 
 .title__network {
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-weight: 400;
 }
 
 .title__network__item {
-    margin: 0 5px;
+    margin: 0 5px 0 30px;
 }
 /*Sessão sobre*/
 
 .about {
-    margin: auto;
+    margin: 0;
     padding: 2rem 7rem 2rem;
     max-width: 71rem;
 
@@ -588,9 +597,13 @@ body {
 }
 
 .experience__img {
-    margin: auto;
+    margin: 0;
     padding: 2rem 0;
     max-width: 71rem;
+}
+ 
+#img_decoder {
+    margin-left: 1rem;
 }
 
 #projeto-relogio {
